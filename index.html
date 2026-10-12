@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#203e30">
+  <meta name="description" content="Цветочный мир — домашние и дачные растения, свежие цветы, букеты, открытки и игрушки с доставкой по Москве до 30 минут.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Цветочный мир — цветы, растения и подарки в Москве">
+  <meta property="og:description" content="Цветы, растения и подарки с доставкой по Москве до 30 минут.">
+  <meta property="og:image" content="images/hero/hero.webp">
+  <title>Цветочный мир — цветы, растения и подарки в Москве</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preload" as="image" href="images/hero/hero.webp">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Цветочный мир — на главную"><span class="brand-mark" aria-hidden="true">✿</span><span>Цветочный <em>мир</em></span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="primary-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Основная навигация">
+        <a href="#top">Главная</a>
+        <a href="#catalog" data-select-category="home">Домашние растения</a>
+        <a href="#catalog" data-select-category="flowers">Цветы в подарок</a>
+        <a href="#catalog" data-select-category="garden">Дачные растения</a>
+        <a href="#catalog" data-select-category="cards">Открытки</a>
+        <a href="#catalog" data-select-category="toys">Игрушки</a>
+        <a href="#delivery" class="nav-delivery">Доставка <span aria-hidden="true">→</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Цветы делают день особенным</p>
+          <h1 id="hero-title">Цветочный<br><em>мир</em><span class="hero-dot">.</span></h1>
+          <p class="hero-lead">Цветы, растения и подарки<br>для ваших близких</p>
+          <div class="hero-delivery"><span class="delivery-mini-icon" aria-hidden="true">✳</span><span>Доставка по Москве до 30 минут</span></div>
+          <div class="hero-actions"><a class="button button-primary" href="#catalog">Смотреть каталог <span aria-hidden="true">→</span></a><a class="button button-text" href="#delivery">О доставке <span aria-hidden="true">→</span></a></div>
+        </div>
+        <div class="hero-photo" role="img" aria-label="Композиция из цветов, букета и комнатного растения"></div>
+        <div class="hero-caption" aria-hidden="true">С теплом в каждом лепестке · Москва</div>
+      </div>
+    </section>
+
+    <section class="intro-band" aria-label="Преимущества"><div class="container intro-band-inner"><span>С любовью к природе</span><span class="band-flower" aria-hidden="true">✳</span><span>Для дома и особенных моментов</span><span class="band-flower" aria-hidden="true">✳</span><span>Цветы с доставкой по Москве</span></div></section>
+
+    <section class="section categories-section" id="categories" aria-labelledby="categories-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Найдите что-то своё</p><h2 id="categories-title">Мир, в котором<br><em>всё цветёт</em></h2></div><p>От одного нежного цветка до подарка, который запомнится. Выберите то, что хочется подарить или оставить себе.</p></div>
+        <div class="category-grid">
+          <a class="category-card category-card-large" href="#catalog" data-select-category="home"><img src="images/categories/home.webp" alt="Комнатные растения в уютном интерьере" loading="lazy"><span class="category-content"><span class="category-number">01 / Коллекция</span><strong>Домашние<br>растения</strong><span class="category-desc">Добавьте немного зелени и уюта в ваш дом.</span><span class="category-arrow" aria-hidden="true">→</span></span></a>
+          <a class="category-card" href="#catalog" data-select-category="flowers"><img src="images/categories/flowers.webp" alt="Свежие цветы и букеты" loading="lazy"><span class="category-content"><span class="category-number">02 / Коллекция</span><strong>Цветы в подарок</strong><span class="category-desc">Букеты и свежие цветы для любого повода.</span><span class="category-arrow" aria-hidden="true">→</span></span></a>
+          <a class="category-card" href="#catalog" data-select-category="garden"><img src="images/categories/garden.webp" alt="Садовые растения и саженцы" loading="lazy"><span class="category-content"><span class="category-number">03 / Коллекция</span><strong>Дачные растения</strong><span class="category-desc">Растения для вашего сада и участка.</span><span class="category-arrow" aria-hidden="true">→</span></span></a>
+          <a class="category-card" href="#catalog" data-select-category="cards"><img src="images/categories/cards.webp" alt="Флористические поздравительные открытки" loading="lazy"><span class="category-content"><span class="category-number">04 / Коллекция</span><strong>Открытки</strong><span class="category-desc">Красивое дополнение к вашему подарку.</span><span class="category-arrow" aria-hidden="true">→</span></span></a>
+          <a class="category-card" href="#catalog" data-select-category="toys"><img src="images/categories/toys.webp" alt="Мягкие игрушки для подарка" loading="lazy"><span class="category-content"><span class="category-number">05 / Коллекция</span><strong>Игрушки</strong><span class="category-desc">Мягкие подарки для тех, кого вы любите.</span><span class="category-arrow" aria-hidden="true">→</span></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="catalog" aria-labelledby="catalog-title">
+      <div class="container">
+        <div class="section-heading catalog-heading"><div><p class="eyebrow">Выбирайте с удовольствием</p><h2 id="catalog-title">Наш <em>каталог</em></h2></div><p>Всё, что нужно для тёплых моментов: живые растения, любимые цветы и небольшие подарки.</p></div>
+        <div class="catalog-tools"><div class="filters" id="filters" role="group" aria-label="Фильтр по категории"></div><div class="search-wrap"><label for="catalog-search" class="visually-hidden">Поиск по каталогу</label><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="10.8" cy="10.8" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><input id="catalog-search" type="search" placeholder="Найти цветок или подарок…" autocomplete="off"><button id="clear-search" type="button" aria-label="Очистить поиск">×</button></div></div>
+        <div class="results-line"><span id="result-count" aria-live="polite">Найдено: 37</span><span>Цены указаны в рублях</span></div>
+        <div class="product-grid" id="product-grid"></div>
+        <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">✿</span><h3>Ничего не нашлось</h3><p>Попробуйте другое название или выберите другую категорию.</p></div>
+      </div>
+    </section>
+
+    <section class="delivery-section" id="delivery" aria-labelledby="delivery-title"><div class="container delivery-layout"><div class="delivery-art"><img src="images/delivery/delivery.webp" alt="Цветочный букет подготовлен к доставке" loading="lazy"></div><div class="delivery-copy"><p class="eyebrow eyebrow-light">Цветы рядом, когда они нужны</p><div class="delivery-icon" aria-hidden="true">✳</div><h2 id="delivery-title">Доставка по Москве<br><em>до 30 минут</em></h2><p>Быстро доставим цветы, растения и подарки по Москве.</p><a href="#catalog" class="button button-cream">Выбрать подарок <span aria-hidden="true">→</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">✿</span><span>Цветочный <em>мир</em></span></a><p>Цветы, растения и подарки<br>с доставкой по Москве.</p></div><nav aria-label="Навигация в подвале"><a href="#top">Главная</a><a href="#catalog">Каталог</a><a href="#delivery">Доставка</a></nav></div><div class="container footer-bottom"><span>© Цветочный мир</span><span>Пусть каждый день расцветает</span></div></footer>
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Закрыть карточку товара">×</button><div class="dialog-layout"><img id="dialog-image" alt="Изображение товара"><div class="dialog-copy"><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><strong id="dialog-price"></strong><p class="dialog-note">Товар представлен в информационном каталоге.</p></div></div></dialog>
+</body>
+</html>
